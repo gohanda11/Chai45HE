@@ -168,6 +168,7 @@ Chai45HE/production/
 # Form files
 form_bottom.stp
 form_middle.stp
+case.stp
 
 # Layout configuration
 layout.json
