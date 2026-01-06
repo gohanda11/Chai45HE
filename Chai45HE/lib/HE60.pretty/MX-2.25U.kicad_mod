@@ -1,0 +1,216 @@
+(footprint "MX-2.25U"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.175 0)
+		(layer "Dwgs.User")
+		(uuid "d3e6995c-8b03-4338-92b4-eb7f7652f1bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2.25U"
+		(at 0 -7.9375 0)
+		(layer "Dwgs.User")
+		(uuid "eaddcbc1-a8e5-4d73-9e58-5ce7b5078905")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5dcd5800-6c73-418a-a58d-0087278832fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f82ffbb-2542-4f04-be99-7ac3525f749d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -21.43125 -9.525)
+		(end 21.43125 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "554adcce-58d2-4f7e-9afd-4b24b691a810")
+	)
+	(fp_line
+		(start -21.43125 9.525)
+		(end -21.43125 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00512e2b-3f3d-459c-bf84-7d5ab408a06a")
+	)
+	(fp_line
+		(start -21.43125 9.525)
+		(end 21.43125 9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "13981765-fab8-4268-9a2b-c280ebcbbc65")
+	)
+	(fp_line
+		(start -7 -7)
+		(end -7 -5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b670df95-4eb0-4196-bf33-be20413adb70")
+	)
+	(fp_line
+		(start -7 5)
+		(end -7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5365220d-5294-4cce-a36f-e97c7df57e3c")
+	)
+	(fp_line
+		(start -7 7)
+		(end -5 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d8d88a5f-5295-4130-9a36-38f4cb09be33")
+	)
+	(fp_line
+		(start -5 -7)
+		(end -7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3a11f3ae-a8d9-45ad-b4da-6eedef1bf147")
+	)
+	(fp_line
+		(start 5 -7)
+		(end 7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6db2724e-fbb2-44b4-b3e0-835b5ce6c83d")
+	)
+	(fp_line
+		(start 5 7)
+		(end 7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bb9174ed-d3dc-400c-bb45-48c0de20d1fd")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 7 -5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "69296ab9-cad4-49b1-9e40-74cb686a6a5e")
+	)
+	(fp_line
+		(start 7 7)
+		(end 7 5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6f36e695-efbc-4291-92f8-ccfec56e5a0a")
+	)
+	(fp_line
+		(start 21.43125 -9.525)
+		(end 21.43125 9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c4315232-3583-40fe-a90e-648b433c758a")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.938 -6.985)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a896b0ac-b06e-41ba-b570-e0353fb7303b")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.938 8.255)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "69042d61-6136-45f6-8af2-48fc34219743")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.08 0 48.0996)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "26904de0-738f-4f68-9fd6-f0996fe2eaaf")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 0 48.0996)
+		(size 1.75 1.75)
+		(drill 1.75)
+		(layers "*.Cu" "*.Mask")
+		(uuid "06d0bac3-9703-4f68-9cb7-30822f24db2b")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.938 -6.985)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ef6ae75b-9d28-4ad5-bd84-1a499f13d416")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.938 8.255)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0515b32b-a446-4b03-98bb-6aa7810034f6")
+	)
+	(embedded_fonts no)
+)
