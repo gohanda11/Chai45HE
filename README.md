@@ -8,7 +8,6 @@ Chai45HE is a 40% Hall-effect keyboard based on the [HE60](https://github.com/pe
 - Hall-effect magnetic switches support
 - Based on HE60's proven design and technology
 - Custom PCB design files included
-- 3D case design files available
 
 ---
 
