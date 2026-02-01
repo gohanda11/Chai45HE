@@ -9,6 +9,36 @@ Chai45HE is a 40% Hall-effect keyboard based on the [HE60](https://github.com/pe
 - Based on HE60's proven design and technology
 - Custom PCB design files included
 
+## ファームウェアの書き込み方法
+
+1. 基板裏側の **BOOT** ボタンを長押ししながらUSBケーブルを接続し、Bootloader Modeに入ります。
+2. [WebDFU](https://devanlai.github.io/webdfu/dfu-util/) にアクセスし、**DFU in FS mode** に接続します。
+3. **Firmware Download** セクションでChai45HEのbinファイルを選択します。
+4. **Download** ボタンを押して書き込みを実行します。
+
+## キー設定ガイド
+
+### Tap-Holdの設定方法
+
+Tap-Holdを使うと、短押し(Tap)と長押し(Hold)で異なるキーを割り当てることができます。
+
+1. Remapで **Tap** に設定したいキーを配置します。
+2. **Advanced Keys** から **Tap-Hold** を選択します。
+3. **Hold** に設定したいキーを選択し、**Continue** を押します。
+4. Hold用のキーを設定して **Done** で設定完了です。
+
+### !@#$%などの記号キーの設定方法
+
+Shiftキーとの組み合わせで入力される記号(!@#$%など)を単独のキーとして設定する方法です。
+
+1. Remapで `1 2 3 4 5` を、`! @ # $ %` を入力したいキーに設定します。
+2. **Advanced Keys** から **Dynamic Keystroke** を選択します。
+3. 下の画像のようにShiftを割り当てます。
+
+   ![Dynamic Keystrokeの設定例](/doc/dynamic-keystroke.png)
+
+4. **Done** で設定完了です。
+
 ---
 
 # HE60 (Original Project)
