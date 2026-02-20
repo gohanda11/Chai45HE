@@ -11,10 +11,11 @@ Chai45HE is a 40% Hall-effect keyboard based on the [HE60](https://github.com/pe
 
 ## ファームウェアの書き込み方法
 
-1. 基板裏側の **BOOT** ボタンを長押ししながらUSBケーブルを接続し、Bootloader Modeに入ります。
-2. [WebDFU](https://devanlai.github.io/webdfu/dfu-util/) にアクセスし、**DFU in FS mode** に接続します。
-3. **Firmware Download** セクションでChai45HEのbinファイルを選択します。
-4. **Download** ボタンを押して書き込みを実行します。
+1. [firmware.bin](firmware/firmware.bin) をダウンロードします。
+2. 基板裏側の **BOOT** ボタンを長押ししながらUSBケーブルを接続し、Bootloader Modeに入ります。
+3. [WebDFU](https://devanlai.github.io/webdfu/dfu-util/) にアクセスし、**DFU in FS mode** に接続します。
+4. **Firmware Download** セクションでダウンロードした `firmware.bin` ファイルを選択します。
+5. **Download** ボタンを押して書き込みを実行します。
 
 ## キー設定ガイド
 
