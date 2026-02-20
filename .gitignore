@@ -153,6 +153,8 @@ dkms.conf
 [Rr]elease/
 [Dd]ebug/
 *.launch
+*.zip
+*.JPG
 
 ## Chai45HE specific files
 
